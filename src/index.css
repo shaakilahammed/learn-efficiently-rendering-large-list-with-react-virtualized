@@ -2,9 +2,16 @@
     text-align: center;
 }
 
+.title {
+    font-size: 28px;
+    margin: 4px;
+    color: #397ce5;
+    font-weight: 900;
+}
+
 .list {
     padding: 10px;
-    height: calc(100vh - 20px);
+    height: calc(100vh - 80px);
 }
 
 .row {
@@ -13,6 +20,12 @@
     margin: 5px 0;
     display: flex;
     align-items: center;
+}
+
+.id {
+    width: 40px;
+    margin-right: 5px;
+    text-align: center;
 }
 
 .image {
